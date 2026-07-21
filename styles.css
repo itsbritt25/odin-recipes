@@ -1,0 +1,60 @@
+#homepage {
+    text-align: center;
+    background-color: rgba(245, 26, 77, 0.377);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 15px;
+    animation: color-change 4s infinite ease-in-out alternate;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: rgb(255, 124, 216);
+    }
+    100% {
+        background-color: rgba(233, 96, 219, 0.957);
+    }
+}
+
+body {
+    background-color:rgba(0, 0, 0, 0.58);
+}
+
+.home_link {
+    font-size: 18px;
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    color:rgb(114, 221, 228);
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 1000px;
+}
+
+
+a:visited {
+    color: rgb(88, 173, 247);
+}
+
+ul {
+    
+    list-style-type: "\2B50";
+}
+
+.home_list {
+    padding: 20px;
+}
+
+.under_img {
+    text-align: center;
+    color: rgb(114, 221, 228);
+}
